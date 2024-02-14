@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <!-- Home Page -->
+    <div data-role="page" id="home">
+        <div data-role="header" data-theme="b">
+            <h1>XIAOMI</h1>
+        </div>
+
+        <!-- Copy from demo navbar -->
+        <div data-role="navbar" data-grid="c">
+        <ul>
+        <li><a href="#home" class="ui-btn-active">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#login">Login</a></li>
+        </ul>
+            </div>
+            <!-- /navbar -->
+
+            <div data-role="content">
+                <center><p style="font-size: 50px;">Welcome to XIAOMI Store</p></center>
+                <img src="Img2.jpg" alt="" height="800px" width="100%">
+            </div>
+
+            <div data-role="footer">
+                <h4>XIAOMI Electronics</h4>
+            </div>
+    </div>
+
+<!-- About Page -->
+<div data-role="page" id="about">
+    <div data-role="header" data-theme="b">
+        <h1>About Us</h1>
+    </div>
+
+    <img src="img3.jfif" alt="Banner" height="700px" width="100%">
+    
+    <div data-role="content">
+        <p style="font-size: 50px">We provide you a wide range of electronic devices.</p>
+        <ol style="font-size: 30px">
+            <li>Smart Watches</li>
+            <li>Smart Phones</li>
+            <li>TV</li>
+            <li>Headphones</li>
+            <li>Laptops</li>
+        </ol>
+
+        <a href="#home" data-role="button" style="background-color: black; color: white;">Back to Home</a>
+
+        <div data-role="footer">
+            <h4>XIAOMI Electronics</h4>
+        </div>
+    </div>
+    </div>
+
+
+    <div data-role="page" id="products">
+        <div data-role="header" data-theme="b">
+            <h1>Products</h1>
+        </div>
+
+        <div data-role="content">
+            <center>
+                <div class="rows">
+                    <div>
+                        <center><h2>Smart Phones</h2></center>
+                    <img src="https://img6.gadgetsnow.com/gd/images/products/additional/large/G308495_View_1/mobiles/smartphones/xiaomi-11-lite-ne-5g-128-gb-jazz-blue-8-gb-ram-.jpg" alt="">
+                    <img src="https://img6.gadgetsnow.com/gd/images/products/additional/large/G308495_View_1/mobiles/smartphones/xiaomi-11-lite-ne-5g-128-gb-jazz-blue-8-gb-ram-.jpg" alt="">
+                    <img src="https://img6.gadgetsnow.com/gd/images/products/additional/large/G308495_View_1/mobiles/smartphones/xiaomi-11-lite-ne-5g-128-gb-jazz-blue-8-gb-ram-.jpg" alt="">
+                </div>            
+        </div>
+
+    </center>
+        <a href="#home" data-role="button" style="background-color: black; color: white;">Back to Home</a>
+
+        <div data-role="footer">
+            <h4>XIAOMI Electronics</h4>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Login Page -->
+<div data-role="page" id="login"> 
+    <div data-role="header" data-theme="b">
+        <h1>Login | Register</h1>
+    </div>
+
+    <div data-role="content">
+        <center><p style="font-size: 30px;">Register</p></center>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text">
+            <label for="phone">Phone No</label>
+            <input type="number">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="password">Password</label>
+            <input type="password">
+            <button style="background-color: black; color: white;">Submit</button>
+        </form>
+        <a href="#home" data-role="button" style="background-color: black; color: white;">Back to Home</a>
+    </div>
+</div>
+
+</body>
+</html>
